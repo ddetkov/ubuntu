@@ -1,6 +1,6 @@
 # © Dmitry Detkov 2024
-# Изделие №4 Detkov Pro.
-# File:ubuntu/Dockerfile
+# Изделие №4 Detkov Pro. - ubuntu
+# File: dockerfile
 
 ARG ubuntu_tag
 
@@ -47,7 +47,7 @@ RUN apt install --quiet --yes --no-install-recommends \
 
 # установка дополнительных пакетов
 RUN apt install --quiet --yes --no-install-recommends \
-    bash make sshpass iputils-ping ;
+    bash sshpass ;
 
 # очистка кеша пакетного менеджера
 RUN apt autoremove --yes ; \

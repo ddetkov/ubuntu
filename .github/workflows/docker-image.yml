@@ -1,0 +1,15 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    steps:
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag detkovpro/ubuntu:latest

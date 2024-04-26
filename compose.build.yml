@@ -1,6 +1,6 @@
 # © Dmitry Detkov 2024
-# Изделие №4 Detkov Pro.
-# File:ubuntu/compose.build.yml
+# Изделие №4 Detkov Pro. - ubuntu
+# File: compose.build.yml
 
 services:
 
