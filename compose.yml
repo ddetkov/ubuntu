@@ -1,0 +1,9 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro.
+# File:ubuntu/compose.yml
+
+services:
+
+  ubuntu:
+    image: ubuntu
+    container_name: ubuntu

@@ -1,0 +1,12 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro.
+# File:ubuntu/compose.build.yml
+
+services:
+
+  ubuntu:
+    image: ubuntu
+    build:
+      context: .
+      args:
+        ubuntu_tag: ${ubuntu_tag:-24.04}

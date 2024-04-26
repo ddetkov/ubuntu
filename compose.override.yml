@@ -1,0 +1,17 @@
+# © Dmitry Detkov 2024
+# Изделие №4 Detkov Pro.
+# File:ubuntu/compose.override.yml
+
+x-logging-opts: &logging-opts
+  logging:
+    driver: 'json-file'
+    options:
+      max-size: '10M'
+      max-file: 3
+
+services:
+
+  ubuntu:
+    <<: *logging-opts
+    image: ubuntu
+    hostname: ubuntu
