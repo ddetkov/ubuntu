@@ -1,5 +1,13 @@
 # ubuntu
 
+```
+
+docker build . --file Dockerfile --tag detkovpro/ubuntu:latest
+docker push detkovpro/ubuntu:latest
+
+```
+
+
 Ubuntu (МФА [ʊˈbʊntuː]; от зулу ubuntu — «человечность»; «Убу́нту») — дистрибутив GNU/Linux, основанный на Debian GNU/Linux. Основным разработчиком и спонсором является компания Canonical. В настоящее время проект активно развивается и поддерживается свободным сообществом.
 
 Ubuntu (/ʊˈbʊntuː/ uu-BUUN-too) is a Linux distribution based on Debian and composed mostly of free and open-source software. Ubuntu is officially released in multiple editions: Desktop, Server, and Core for Internet of things devices and robots. The operating system is developed by the British company Canonical, and a community of other developers, under a meritocratic governance model. As of April 2024, the most-recent release is and the current long-term support release is 24.04 ("Noble Numbat").
@@ -32,5 +40,4 @@ Ubuntu Pro offers a single, per-node packaging of the most comprehensive softwar
 
 Furthermore, you can add support for the Base OS, Infrastructure and Applications.
 
-docker build . --file Dockerfile --tag detkovpro/ubuntu:latest
-docker push detkovpro/ubuntu:latest
+
